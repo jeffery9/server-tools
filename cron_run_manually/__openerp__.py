@@ -19,8 +19,8 @@
 
 {
     'name': 'Call cron jobs from their form view',
-    'version': '1.0',
-    'author': "Therp BV (OpenERP S.A.)",
+    'version': '8.0.1.0.0',
+    'author': "Therp BV (OpenERP S.A.),Odoo Community Association (OCA)",
     'license': 'AGPL-3',
     'category': 'Tools',
     'description': """

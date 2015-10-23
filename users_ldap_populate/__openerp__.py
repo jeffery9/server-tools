@@ -20,8 +20,9 @@
 ##############################################################################
 {
     "name": "LDAP Populate",
-    "version": "1.2",
-    "author": "Therp BV",
+    "version": "8.0.1.2.0",
+    "author": "Therp BV,Odoo Community Association (OCA)",
+    "license": "AGPL-3",
     "category": 'Tools',
     "description": """
 This module allows to prepopulate the user database with all entries in the
@@ -40,6 +41,9 @@ object you want to query.
     "depends": [
         'auth_ldap',
     ],
+    'external_dependencies': {
+        'python': ['ldap'],
+    },
     "data": [
         'view/users_ldap.xml',
         'view/populate_wizard.xml',

@@ -20,7 +20,7 @@
 
 {
     'name': "Optional quick create",
-    'version': '0.1',
+    'version': '8.0.0.1.0',
     'category': 'Tools',
     'summary': "Avoid 'quick create' on m2o fields, on a 'by model' basis",
     'description': """
@@ -32,7 +32,7 @@ form.
 
 Got the idea from https://twitter.com/nbessi/status/337869826028605441
 """,
-    'author': 'Agile Business Group',
+    'author': "Agile Business Group,Odoo Community Association (OCA)",
     'website': 'http://www.agilebg.com',
     'license': 'AGPL-3',
     "depends": ['base'],

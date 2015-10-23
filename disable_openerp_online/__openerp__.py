@@ -20,15 +20,16 @@
 ##############################################################################
 {
     "name": "Remove odoo.com bindings",
-    "version": "1.1",
-    "author": "Therp BV",
+    "version": "8.0.1.1.0",
+    "author": "Therp BV,Odoo Community Association (OCA)",
+    "license": "AGPL-3",
     "complexity": "normal",
     "description": """
 This module deactivates all bindings to openerp.com that
 come with the standard code:
 
 * update notifier code is deactivated and the function is overwritten
-* apps and updates menu items in settings are hidden inside Tools\Parameters
+* apps and updates menu items in settings are hidden inside Tools\\Parameters
 * help and account menu items in user menu are removed
 * prevent lookup of OPW for current database uuid and resulting
   'unsupported' warning

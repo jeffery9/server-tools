@@ -21,7 +21,8 @@
 {
     "name": "Authenticate via HTTP basic authentication (logout helper)",
     "version": "1.0",
-    "author": "Therp BV",
+    "author": "Therp BV,Odoo Community Association (OCA)",
+    "license": "AGPL-3",
     "complexity": "expert",
     "description": """
 With auth_from_http_basic, the logout procedure has to be bent a bit to provide
@@ -50,7 +51,7 @@ Open2bizz software & consultancy
     "qweb": [
     ],
     "auto_install": False,
-    "installable": True,
+    "installable": False,
     "external_dependencies": {
         'python': [],
     },

@@ -21,7 +21,8 @@
 {
     "name": "Authenticate via HTTP basic authentication",
     "version": "1.0",
-    "author": "Therp BV",
+    "author": "Therp BV,Odoo Community Association (OCA)",
+    "license": "AGPL-3",
     "complexity": "expert",
     "description": """
 In an environment where several web applications authenticate against the same
@@ -55,7 +56,7 @@ Open2bizz software & consultancy
     "qweb": [
     ],
     "auto_install": False,
-    "installable": True,
+    "installable": False,
     "external_dependencies": {
         'python': [],
     },

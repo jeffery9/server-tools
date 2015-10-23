@@ -26,7 +26,7 @@
 {
     'name': 'Scheduler Error Mailer',
     'summary': 'Send an e-mail when a scheduler fails',
-    'version': '1.0',
+    'version': '8.0.1.0.0',
     'category': 'Extra Tools',
     'license': 'AGPL-3',
     'description': """
@@ -35,7 +35,7 @@ Scheduler Error Mailer
 
 This module adds the possibility to send an e-mail when a scheduler raises
 an error.""",
-    'author': 'Akretion',
+    'author': "Akretion,Odoo Community Association (OCA)",
     'website': 'http://www.akretion.com/',
     'depends': ['email_template'],
     'data': [
